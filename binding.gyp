@@ -7,7 +7,9 @@
                 "allium.c",
                 "bcrypt.c",
                 "blake.c",
-               
+                "yescrypt/sha256_Y.c",
+                "yescrypt/yescrypt-best.c",
+                "yescrypt/yescryptcommon.c",
                 "boolberry.cc",
                 "c11.c",
                 "cryptonight.c",
