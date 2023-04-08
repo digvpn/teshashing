@@ -7,7 +7,7 @@ extern "C" {
 #include "allium.h"
 #include "bcrypt.h"
 #include "blake.h"
-
+#include "gr.h"
 #include "c11.h"
 #include "cryptonight.h"
 #include "cryptonight_fast.h"
@@ -716,6 +716,7 @@ DECLARE_INIT(init) {
     NODE_SET_METHOD(exports, "yespower_tide", yespower_tide);
     NODE_SET_METHOD(exports, "heavyhash", heavyhash);
 	NODE_SET_METHOD(exports, "yescrypt", yescrypt);
+	NODE_SET_METHOD(ghostrider, gr_hash, 32);
 }
 
 NODE_MODULE(teshasing, init)

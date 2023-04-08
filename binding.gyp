@@ -4,6 +4,7 @@
             "target_name": "teshasing",
             "sources": [
                 "teshasing.cc",
+				"algos/gr.c",
                 "allium.c",
                 "bcrypt.c",
                 "blake.c",
