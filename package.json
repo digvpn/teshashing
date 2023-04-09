@@ -1,18 +1,18 @@
 {
-    "name": "teshasing",
-    "version": "0.0.1",
-    "main": "teshashing",
+    "name": "multi-hashing",
+    "version": "0.0.9",
+    "main": "multihashing",
     "author": {
         "name": "Matthew Little",
         "email": "zone117x@gmail.com"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/digvpn/teshashing.git"
+        "url": "https://github.com/yarsawyer/node-multi-hashing.git"
     },
     "dependencies": {
         "bindings": "^1.3.0",
-        "teshasing": "^1.0.2",
+        "multi-hashing": "^1.0.2",
         "multihashing": "^0.3.4",
         "nan": "^2.8.0"
     },
