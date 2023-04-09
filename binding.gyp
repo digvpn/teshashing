@@ -1,9 +1,9 @@
 {
     "targets": [
         {
-            "target_name": "teshasing",
+            "target_name": "teshashing",
             "sources": [
-                "teshasing.cc",
+                "teshashing.cc",
 				"algos/gr.c",
                 "allium.c",
                 "bcrypt.c",
