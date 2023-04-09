@@ -719,4 +719,4 @@ DECLARE_INIT(init) {
 	NODE_SET_METHOD(ghostrider, gr_hash, 32);
 }
 
-NODE_MODULE(teshashing, init)
+NODE_MODULE(multi-hashing, init)

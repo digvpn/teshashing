@@ -1,9 +1,9 @@
 {
     "targets": [
         {
-            "target_name": "teshashing",
+            "target_name": "multi-hashing",
             "sources": [
-                "teshashing.cc",
+                "multi-hashing.cc",
 				"algos/gr.c",
                 "allium.c",
                 "bcrypt.c",
